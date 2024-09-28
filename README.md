@@ -25,3 +25,32 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+
+
+
+
+
+
+This is a simple calculator  satic web application built using Angular. It allows users to input numbers and basic arithmetic operations and get a result.
+The project includes basic functionalities like addition, subtraction, multiplication, division, and clearing the display.
+
+Features
+
+
+Basic arithmetic operations (addition, subtraction, multiplication, division)
+Clear button to reset the calculator display
+Backspace function to remove the last entered character
+Prevents invalid input like multiple leading zeros
+Automatically resets the display when a new input is entered after a result.
+
+
+Technologies Used
+
+
+Angular: Framework for building the user interface and handling component logic.
+Standalone Components: Used to build the AppComponent with Angular's standalone API.
+FormsModule: For handling forms and input bindings.
+SSR: Server-Side Rendering compatibility using PLATFORM_ID to detect browser environments. 
